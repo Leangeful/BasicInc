@@ -39,7 +39,7 @@
 			<Navigation on:nav={navevent} />
 		</div>
 
-		<div class="">try gh actions</div>
+		<div class="">try sasgh actions</div>
 		<GameDisplay />
 	</div>
 </AppShell>
