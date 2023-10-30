@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Share+Tech+Mono&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +7,11 @@
 html,
 body {
 	@apply h-full overflow-hidden;
+}
+
+:root [data-theme='crimson'] {
+	--theme-font-family-base: 'Share Tech Mono', 'Roboto Mono', monospace;
+	--theme-font-family-heading: 'Share Tech Mono', 'Roboto Mono', monospace;
+	--theme-rounded-base: theme(borderRadius.sm);
+	--theme-rounded-container: theme(borderRadius.sm);
 }
