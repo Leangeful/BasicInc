@@ -39,7 +39,7 @@
 			<Navigation on:nav={navevent} />
 		</div>
 
-		<div class="">try blubb actions</div>
+		<div class="">try blubb5 actions</div>
 		<GameDisplay />
 	</div>
 </AppShell>
